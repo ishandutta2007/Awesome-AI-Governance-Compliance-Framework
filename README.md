@@ -81,7 +81,7 @@ Open-source AI governance platforms and compliance toolkits deliver self-hosted 
 
 ### Open-Source Solutions Ranked by Stars
 
-The following open-source AI governance, risk scanning, safety guardrail, and evidence repositories are sorted in **descending order by GitHub star count**:
+The following open-source AI governance, risk scanning, safety guardrail, and evidence repositories are sorted in **descending order by GitHub Stars_Count**:
 
 1. 🔍 **[NVIDIA/garak](https://github.com/NVIDIA/garak)** <a href="https://github.com/NVIDIA/garak/stargazers"><img src="https://img.shields.io/github/stars/NVIDIA/garak?style=social&color=white" alt="Stars" /></a> — **LLM Vulnerability & Compliance Scanner**
    - *Scope*: Known as the "Nmap for LLMs," Garak dynamically tests language models for hallucination, prompt injection, data leakage, toxic outputs, and regulatory compliance breaches (mapped to EU AI Act & OWASP LLM Top 10).
