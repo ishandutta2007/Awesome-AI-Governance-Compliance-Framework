@@ -32,71 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global AI Governance and Compliance market is estimated at ~$250M–$2.6B in 2025 and projected to reach ~$415M–$3.3B by 2026 (growing at ~24%–36% CAGR), propelled by regulatory enforcement including the EU AI Act and ISO 42001. The sector is currently moderately fragmented across niche point solutions (e.g., algorithmic bias auditing, LLM guardrails, runtime agent oversight), but is transitioning rapidly toward consolidation as hyperscalers and established GRC incumbents acquire specialists and expand horizontal governance suites.
 
 ## SaaS/Hosted Platforms
 
+| Company / Product | Company Size (Valuation / Revenue) | Pricing | Free Tier / Free Trial Limits | Key Focus & Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Purview DSPM for AI** | ~$3.8T–$3.9T Market Cap / ~$282B+ Rev (FY25) | Starts at **$12/user/month** (standalone Purview Suite add-on) or included in **Microsoft 365 E5 at $60/user/month**; multi-cloud scanning billed via pay-as-you-go Azure meters | **No dedicated standalone free tier**; 30-day trial available via Microsoft 365 E5 / Purview enterprise trial (up to 25 user licenses) | Single-pane visibility into enterprise Copilot and third-party generative AI usage, sensitive-data exposure detection, and automated labeling. |
+| **IBM watsonx.governance** | ~$231B Market Cap / ~$67.5B Rev (FY25) | **Lite: $0/month**; **Essentials: $0.60 per resource unit (RU)** (up to 500 inventories); **Standard instance: $795/month** (includes 3 use cases, 3 custom attributes, up to 25 concurrent users) | **Free forever plan (Lite Tier)**: Up to 200 resource units (RUs), 3 use cases, and 1 inventory with model tracking | Model evaluation, risk management, and lifecycle tracking across both predictive and generative AI workflows. |
+| **SAS AI Navigator** | ~$3.0B Annual Revenue (Private) | **Pay-as-you-go via Microsoft Azure Marketplace** post-trial (custom consumption / quote-based contract) | **6-month free trial** via Microsoft/Azure Marketplace (full access to inventory and lifecycle packs during promotional trial window) | AI use case inventory linked to business impact, governance of underlying models and agents, and EU AI Act/NIST RMF policy packs. |
+| **OneTrust AI Governance** | ~$4.5B Valuation (scaled toward $500M ARR) | Enterprise contracts typically start at **~$50,000/year** (hybrid metric based on admin/governance seats and tracked inventory volume; platform minimum base ~$10,000/yr) | **No free tier**; 14-day scoped pilot/trial available for enterprise evaluation upon sales consultation | Deep integration into broader enterprise GRC, risk scoring, vendor assessments, and regulatory mappings (EU AI Act, ISO 42001). |
+| **FairNow** (AuditBoard / Optro) | ~$3.0B+ Parent Valuation (AuditBoard acquired by Hg for $3B+; $200M+ ARR) | Modular annual enterprise contracts; median AuditBoard contracts start at **~$21,000–$45,947/year** (scales with tracked models, audit scope, and seats) | **No free tier**; 14-day custom proof-of-concept (PoC) / pilot available upon guided sales qualification | AI model inventory, bias/fairness auditing, tamper-evident audit evidence retention, and EU AI Act Article 12 compliance logging. |
+| **CalypsoAI** (F5) | ~$180M Acquisition (Acquired by F5) | Enterprise subscription starting at **custom annual quotes** based on monitored inference requests, LLM endpoints, and deployment footprint | **No free tier**; 14-day to 30-day guided enterprise sandbox / pilot available upon request | Full-lifecycle runtime AI security at the inference layer: automated red-teaming, guardrails, prompt scanning, and adversarial attack defense. |
+| **Holistic AI** | ~$8M ARR / $35M+ Venture Funding | Custom enterprise subscription scaling by monitored AI systems and governance modules; typical enterprise deployments start at **~$15,000–$30,000/year** | **No free tier**; guided custom proof-of-concept (PoC) pilot available for qualified enterprise evaluations | In-depth bias and fairness audits, shadow AI discovery, and conformity assessments aligned with EU AI Act and NYC Local Law 144. |
+| **Credo AI** | ~$3.7M–$7.9M ARR / $41.3M Total Funding | Structured tiered pricing: **Enterprise (0–100 use cases): $153,750/year**; **101–500 use cases: $307,500/year**; **501–1,000 use cases: $512,500/year**; Self-Hosted / On-Prem: $102,500/year | **No free tier or public self-serve trial**; scoped custom enterprise evaluation pilot available on request | Enterprise AI registry, compliance workflows, and comprehensive EU AI Act / ISO 42001 conformity evidence packs. |
 
-
-- **Credo AI**
-
-  **AI governance platform** for policy, registry, and conformity. **Pricing**: **Enterprise (0–100 use cases) $153,750/year**; **101–500 use cases $307,500/year**; **501–1,000 use cases $512,500/year**; **Self-Hosted $102,500/year**; **On-Prem $102,500/year**; **Platform Readiness & Implementation $205,000 one-time**; **Additional Services $102,500 one-time** . **Free tier**: None. **Best for**: enterprises needing structured AI use case inventories with EU AI Act and ISO 42001 conformity evidence—**trade-off**: six-figure annual commitment; professional services add significantly.
-
-
-
-- **IBM watsonx.governance**
-
-  **AI governance** across predictive and generative models. **Pricing**: **Lite free** (up to 200 resource units, 3 use cases, 1 inventory); **Essentials $0.60 per resource unit** (up to 500 inventories); **Standard instance $795/month** (3 use cases, 3 custom attributes, up to 25 concurrent users); higher tiers scale . **Free tier**: Yes, Lite with 200 RUs. **Best for**: IBM-centric enterprises wanting model evaluation and risk management with a free entry point—**trade-off**: resource-unit metering requires usage modeling; full governance requires paid tiers.
-
-
-
-- **Holistic AI**
-
-  **AI governance and risk management** platform. **Pricing**: **No public pricing**—provider does not communicate price information; individual agreement required . **Free tier**: Free version and free trial listed on OMR, but scope unverified . **Best for**: organizations needing bias testing and shadow AI discovery—**trade-off**: reviewers cite high price and non-transparent pricing as barriers; integrations can be complex .
-
-
-
-- **FairNow**
-
-  **AI governance platform** (acquired by AuditBoard in 2025). **Features**: **AI model inventory** with ownership and lifecycle stage; **risk assessment workflows**; **bias and fairness testing**; **regulatory intelligence** tracking; **audit evidence collection** with hashing and retention; **audit logging** for EU AI Act Article 12; **third-party AI vendor risk** . **Pricing**: **No public pricing**—contact sales for quote . **Free tier**: Free trial listed but scope unverified . **Best for**: enterprises needing audit-ready evidence and harmonized controls across 25+ regulations—**trade-off**: no public pricing; now part of AuditBoard.
-
-
-
-- **OneTrust AI Governance**
-
-  **AI governance module** within OneTrust's GRC and privacy ecosystem. **Features**: **Centralized intake**; **risk assessment**; **lifecycle tracking** of AI systems; **flexible questionnaires and workflows**; **mapping to regulatory frameworks** . **Pricing**: **No public pricing**; reviewers describe TCO as expensive . **Free tier**: None. **Best for**: organizations already on OneTrust wanting AI governance within their existing GRC platform—**trade-off**: reviewers note it is "not very user friendly" with significant post-implementation work required .
-
-
-
-- **CalypsoAI**
-
-  **AI security and governance** for LLM deployments (acquired by F5 for $180M). **Features**: **Automated red-teaming**; **risk scoring**; **content moderation**; **compliance monitoring**; **granular access controls**; **audit trails**; only full-lifecycle platform for AI security at the inference layer . **Pricing**: **Enterprise-only**; may be prohibitive for smaller organizations . **Free tier**: None. **Best for**: enterprises needing runtime AI security alongside governance—**trade-off**: complex features require expertise; F5 ownership may change product direction .
-
-
-
-- **SAS AI Navigator**
-
-  **AI governance SaaS** on Microsoft Marketplace. **Features**: **AI use case inventory** organized around business impact; **governance extends to models and agents** powering each use case; **policy packs** for EU AI Act, NIST AI RMF, and internal generative AI policy; **full lifecycle coverage** from experimentation to phase-out; covers in-house and third-party AI . **Pricing**: **First six months free**; **pay-as-you-go after**; post-trial rate, metering, data residency, and SLAs not published . **Free tier**: Yes, 6-month trial. **Best for**: Microsoft-centric organizations wanting a free trial before committing—**trade-off**: discovery mechanism unclear; manual setup described by third parties; Entra ID required .
-
-
-
-- **Microsoft Purview DSPM for AI**
-
-  **Data security posture management for AI** (formerly AI Hub). **Features**: **Single pane of glass** over generative AI usage including Copilot and third-party apps; **surfaces sensitive-data exposure**; **ready-to-deploy policies** for risky AI use; **labels sensitive prompts/responses**; **feeds into Insider Risk Management** . **Pricing**: **Full capabilities require M365 E5, E5 Compliance add-on, or standalone Purview licenses**; lighter version available on E3 with Copilot licenses . **Free tier**: Limited on E3 with Copilot. **Best for**: Microsoft 365 organizations needing visibility into AI usage and data exposure—**trade-off**: full policy depth requires E5; prerequisites (Audit, sensitivity labels, Restricted Search) must be in place first .
-
-
-
-- **Icertis Responsible AI Policy** (**Not a vendor platform**)
-
-  **Corporate AI policy framework** published as reference documents. **Features**: **AI Acceptable Use Policy (AUP)** governing subscriber use of AI services—prohibited content/actions, consequential decisions, critical infrastructure, data protection; **Responsible AI Policy** with FORTE principles (Fairness, Openness, Respect, Teamwork, Execution) and Map-Evaluate-Mitigate process; board-level oversight . **Pricing**: N/A (policy documents). **Free tier**: N/A. **Best for**: organizations wanting a reference policy framework to adapt—**not a software platform**.
+*(Note: **Icertis Responsible AI Policy** was previously noted in literature as a policy framework reference document rather than a standalone SaaS governance software platform, and is preserved as reference material in the documentation).*
 
 
 
